@@ -8,12 +8,12 @@
       <fieldData>
         <field-data>
           <name>gender</name>
-          <value>Female</value>
+          <value>Male</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>maritalStatus</name>
-          <value>Married</value>
+          <value>Single</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -46,7 +46,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>salutation</fieldName>
-          <expected>Mrs.</expected>
+          <expected>Mr.</expected>
           <actualResult>Ms.</actualResult>
           <successResult>true</successResult>
           <explanation>[GreetingResponse] field [salutation] was [Ms.].</explanation>
