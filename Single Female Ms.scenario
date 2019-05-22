@@ -8,12 +8,12 @@
       <fieldData>
         <field-data>
           <name>gender</name>
-          <value>Male</value>
+          <value>Female</value>
           <nature>4</nature>
         </field-data>
         <field-data>
           <name>maritalStatus</name>
-          <value>Married</value>
+          <value>Single</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -46,7 +46,7 @@
       <fieldValues>
         <expect-field>
           <fieldName>salutation</fieldName>
-          <expected>Mr.</expected>
+          <expected>Ms.</expected>
           <actualResult>No match</actualResult>
           <successResult>false</successResult>
           <explanation>Fact of type [GreetingResponse] was not found in the results.</explanation>
